@@ -1,0 +1,29 @@
+List of all API's
+
+1)To get list of students 
+http://localhost:9091/home/student/getAllStudents
+
+2)To insert a new student 
+http://localhost:9091/home/student/postStudent
+
+Test Data below:
+{
+        "id": 10005,
+        "name": "Amit",
+        "passportNumber": "A1234569"
+}
+
+
+3)To update details of students
+http://localhost:9091/home/student/postStudent
+
+4)To delete student 
+http://localhost:9091/home/student/deletetStudent/10005
+
+H2 in-memory DB access link below:
+http://localhost:9091/h2-console
+
+username: admin
+Password: A@m_!t
+
+
